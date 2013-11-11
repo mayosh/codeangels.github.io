@@ -323,7 +323,6 @@ ul.list_example ~ p {
 					<p>a:visited</p>
 					<p>:hover</p>
 					<p>a:active</p>
-					<p>:focus</p>
 				</section>
 				<section>
 					<p>:first-child</p>
@@ -434,8 +433,18 @@ ul.list_example ~ p {
 					</div>
 				</section>
 				<section>
+					<h3>miscellaneous</h3>
 					<p>:root</p>
 					<p>:empty</p>
+					<p>:target</p>
+					<p>:not(selector)</p>
+				</section>
+				<section>
+					<h3>For forms</h3>
+					<p>:enabled</p>
+					<p>:disabled</p>
+					<p>:checked</p>
+					<p>:focus</p>
 				</section>
 				<section>
 					<h3>Generated content Pseudo-elements</h3>
@@ -500,7 +509,8 @@ ul.list_example ~ p {
 				</section>
 				<section>
 					<h3>Specificity</h3>
-					<img src="img/stylewars.png" alt="stylewars"/>							
+					<img src="img/stylewars.png" alt="stylewars"/>
+					<p><small><a href="http://css-tricks.com/specifics-on-css-specificity/">http://css-tricks.com/specifics-on-css-specificity/</a></small></p>
 				</section>
 				<section>
 					<h1>Styling with css</h1>
@@ -844,10 +854,10 @@ div span {
 				<section>
 					<h4>Dimension</h4>
 					<ul class="list2">
-						<li>height</li>
 						<li>width</li>
-						<li>min-height, max-height</li>
+						<li>height</li>
 						<li>min-width, max-width</li>
+						<li>min-height, max-height</li>
 					</ul>
 <pre><code data-trim contenteditable>
 width: 100%;
@@ -897,7 +907,6 @@ p:before {
 						<li>column-rule (width, style, color)</li>
 						<li>column-span (1, all)</li>
 						<li>column-width</li>
-						<li>column-fill</li>
 						<li>break-* (before, after, inside,) -
 						auto | always | avoid | left | right | page | column | avoid-page | avoid-column;</li>
 					</ul>
